@@ -4,7 +4,7 @@
    update_cache: yes
 
 
-- name: Install Java
+- name: InstallJava
   apt:
    name: default-jdk
    state: present

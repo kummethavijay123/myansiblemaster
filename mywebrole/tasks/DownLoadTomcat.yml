@@ -12,5 +12,5 @@
 
 - name: i want extract tar file, If a matching file already exists, this step will not be run
   command:
-      cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-8.5.5.tar.gz
+      cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-8.5.5.tar.gz -C /opt/tomcat --strip-components=1
       creates: /opt/tomcat/LICENSE
